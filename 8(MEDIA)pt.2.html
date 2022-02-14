@@ -5,9 +5,12 @@
     <meta charset="utf-8" />
   </head>
   <body>
+    <!-- Criand o botão responsável por chamar a função -->
     <input type="button" value="Calcular Média" onclick="calculaMedia()" />
     <script>
+      <!-- Definindo a variável soma responsável por somar todos os valores que forem digitados -->
       var soma = 0
+      <!-- Criando a função responsável por realizar o recebimento dos valores e calcular a média -->
       function calculaMedia() {
         var qtd = prompt('Informe quantos valores deseja calcular: ')
         for (var i = 1; i <= qtd; i++) {
