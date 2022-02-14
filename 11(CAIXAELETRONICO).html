@@ -1,30 +1,28 @@
 <script>
+  //Definindo a variável que irá receber o valor do saque
   var valorSaque = prompt('Informe o valor do saque: ', 'Ex.: 1250'),
     resto
+  //Definindo as variáveis que recebem a quantidade de notas.
   var n100, n50, n20, n10
-
+//Criando a função que calcula o número de notas
   function calculaNotas(valorSaque) {
     n100 = valorSaque / 100
     resto = valorSaque % 100
-    console.log(n100)
 
     n50 = resto / 50
     resto = resto % 50
-    console.log(n50)
 
     n20 = resto / 20
     resto = resto % 20
-    console.log(n20)
 
     n10 = resto / 10
     resto = resto % 10
-    console.log(n10)
-
+//Neste retorno eu adicionei o objeto Math que retira as casas decimais e retorna apenas o número inteiro
     return `  Notas de 100: ${Math.trunc(n100)}
   Notas de 50: ${Math.trunc(n50)}
   Notas de 20: ${Math.trunc(n20)}
   Notas de 10: ${Math.trunc(n10)}`
   }
-
+//Criando um alerta que chama a função usando como parâmetro o valor do Saque
   alert(calculaNotas(valorSaque))
 </script>
