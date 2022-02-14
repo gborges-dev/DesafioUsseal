@@ -1,0 +1,64 @@
+-----------------------------------------------------------------------------------------------------------------------------
+Questão 1 (10 * 4 - 8 + 24 / 8):
+
+10 * 4 = 40
+24 / 8 = 3
+40 - 8 + 3 = 35
+-----------------------------------------------------------------------------------------------------------------------------
+Questão 2:
+
+== Compara somente o valor da expressão, ideal usar quando você precisa compara os valores de duas expressões diferente e que não necessáriamente são do mesmo tipo de dado.
+Exemplo: var a = 5
+		 var b = '5'
+
+		 if (a == b) {
+  			console.log('São iguais!')
+		 } else {
+  			console.log('São diferentes!')
+		 }
+
+
+=== Compara o valor e o tipo do dado, ideal usar quando o resultado das expressões precisam necessáriamente ser do mesmo tipo de dado.
+Exemplo: var a = 5
+		 var b = '5'
+
+		 if (a === b) {
+  			console.log('São iguais!')
+		 } else {
+  			console.log('São diferentes!')
+		 }
+-----------------------------------------------------------------------------------------------------------------------------
+Questão 3:
+
+Resposta letra A) Loop Infinito.
+-----------------------------------------------------------------------------------------------------------------------------
+Questão 4:
+
+novoNumero = 9
+a = 3
+-----------------------------------------------------------------------------------------------------------------------------
+Questão 5:
+
+false
+true
+{ nome: 'Maria' }
+{ nome: 'Pedro' }
+false
+-----------------------------------------------------------------------------------------------------------------------------
+Questão 6:
+
+Levando em consideração o código apresentado, o resultado é um erro, pois, as variaveis não foram corretamente declaradas. Usando o código abaixo que, basicamente, é o mesmo código, porém, contendo as declarações corretas:
+
+var x = 10
+var y = 20
+
+var resultadoX = (x += x == 20 ? x / y : y / x)
+var resultadoY = (y -= y == 10 ? y / x : x / y)
+
+console.log(resultadoX)
+console.log(resultadoY)
+
+Resultado: 12
+		   19.4
+-----------------------------------------------------------------------------------------------------------------------------
+
